@@ -10,7 +10,6 @@ jobs:
   build_docs_job:
     runs-on: ubuntu-latest
     container: debian:buster-slim
-       image: python:3.7
  
     steps:
  
