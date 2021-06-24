@@ -1,0 +1,32 @@
+:mod:`helloWorld`
+=================
+
+.. py:module:: helloWorld
+
+.. autoapi-nested-parse::
+
+   This is a very simple helloWorld python script
+
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   helloWorld.helloWorld
+
+
+
+.. function:: helloWorld(msg)
+
+   This is a simple function that prints a message
+
+   :param msg: The string to print
+   :type msg: str
+
+
