@@ -21,6 +21,7 @@ jobs:
       run: |
         apt-get update
         apt-get install -y git
+        pip install sphinx==3.5.4 sphinx-autoapi==1.8.0 sphinx-rtd-theme==0.5.2 sphinx-autodoc-typehints
         git clone --depth 1 "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
       shell: bash
  
